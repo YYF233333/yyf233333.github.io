@@ -5,7 +5,7 @@ description: ""
 featured_image: ""
 draft: false
 tags: [""]
-categories: ""
+categories: Intro
 ---
 
 # Hello World

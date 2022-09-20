@@ -20,12 +20,19 @@ tabWidth = 4
 [markup.goldmark.renderer]
 unsafe = true
 
+[imaging]
+anchor = 'Smart'
+bgColor = '#ffffff'
+hint = 'drawing'
+quality = 100
+resampleFilter = 'Lanczos'
+
 [params]
-subtitle = "Themed by Diary."
+enableLaTeX = true
 enableGitalk = true
 
 # Twitter Card and Open Graph settings
-enableOpenGraph = true
+enableOpenGraph = false
 enableTwitterCards = true
 title = "My Blog"                       # will set 'og:site_name'
 description = "My HomePage Description" # will set 'og:description'

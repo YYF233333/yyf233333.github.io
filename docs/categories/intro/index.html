@@ -21,7 +21,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Intro"/>
-<meta name="twitter:description" content="Hello World "/>
+<meta name="twitter:description" content="My HomePage Description"/>
 
 
 
@@ -48,8 +48,6 @@
 
 
 
-      <script src="/js/toc.js"></script>
-    
     <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css"><link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Material+Icons">
 
@@ -80,23 +78,6 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="/vendor/js/md5.min.js"></script><script>
-  var gitalk = new Gitalk({
-  clientID: '53964ca163684a46404f',
-  clientSecret: '4cbe9f66d3ff882e6a9e2fe50143f1f9ad2d8dd6',
-  repo: 'blog-comment',
-  owner: 'YYF233333',
-  admin: ['YYF233333'],
-  id: md5(location.pathname),
-  distractionFreeMode: 'false'
-  });
-  window.onload = function () {
-        gitalk.render('gitalk-container')
-  }
-</script>
-
 
 
 
@@ -126,11 +107,9 @@
             
             
             
-                
             
             
-            
-            <a class="a-block nav-link-item active" href="/gal">
+            <a class="a-block nav-link-item false" href="/gal">
                 galgame
             </a>
             
@@ -138,9 +117,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/categories">
+            
+            <a class="a-block nav-link-item active" href="/categories">
                 Categories
             </a>
             
@@ -187,42 +168,6 @@ Copyright 2022-2022 YYF2333. All rights reserved.
 </div><div id="extraContainer" class="extra-container">
     
     
-    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
-
-
-	<div class="toc-content">
-	
-		
-		
-		
-		<center>- 目录 -</center>
-		
-		
-		<ul>
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#hello-world" onclick="onNavClick(`#hello-world-nav`)" id="hello-world-nav">
-									Hello World
-								</a>
-							</li>
-						
-						
-					
-				
-			
-		</ul>
-	</div>
-
-</div>
-    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
@@ -237,6 +182,8 @@ Copyright 2022-2022 YYF2333. All rights reserved.
         </a>
         
         
+        
+        
     </div>
 </div>
 <div class="single-column-drawer-container" id="drawer"
@@ -249,11 +196,9 @@ Copyright 2022-2022 YYF2333. All rights reserved.
                 
                 
                 
-                    
                 
                 
-                
-                <a class="a-block drawer-menu-item active" href="/gal">
+                <a class="a-block drawer-menu-item false" href="/gal">
                     galgame
                 </a>
                 
@@ -261,9 +206,11 @@ Copyright 2022-2022 YYF2333. All rights reserved.
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/categories">
+                
+                <a class="a-block drawer-menu-item active" href="/categories">
                     Categories
                 </a>
                 
@@ -288,42 +235,6 @@ Copyright 2022-2022 YYF2333. All rights reserved.
                 </a>
                 
             
-            
-            <div class="toc">
-
-
-	<div class="toc-content">
-	
-		
-		
-		
-		<center>- 目录 -</center>
-		
-		
-		<ul>
-			
-				
-				
-					
-						
-						
-						
-						
-						
-							<li>
-								<a href="#hello-world" onclick="onNavClick(`#hello-world-nav`)" id="hello-world-nav">
-									Hello World
-								</a>
-							</li>
-						
-						
-					
-				
-			
-		</ul>
-	</div>
-
-</div>
             
         </div>
     </div>
@@ -364,91 +275,42 @@ Copyright 2022-2022 YYF2333. All rights reserved.
                 <div id="streamContainer" class="stream-container">
 
     <div class="post-list-container post-list-container-shadow">
-        <div class="post">
-            
-            
-            
-
-            <div class="post-head-wrapper-text-only"
-                
-            >
-                <div class="post-title">
-                    Intro
-                    
-                    <div class="post-meta">
-                        
-                        <time itemprop="datePublished">
-                            2022-09-20 15:54
-                        </time>
-                        
-
-                        
-                            <i class="material-icons" style="">folder</i>
-                                <a href="/categories/intro">Intro</a>
-                                &nbsp;
-                        
-
-                        
-                            <i class="material-icons" style="">label</i>
-                            
-                                <a href="/tags/"></a>
-                                &nbsp;
-                            
-                        
-                        
+        <div class="post-item-wrapper post-item-wrapper-no-hover">
+            <div class="post-item post-item-no-gaps">
+                <div class="post-item-info-wrapper">
+                    <div class="post-item-title  post-item-title-small">
+                        <a href="/categories/">Categories</a> / Intro
                     </div>
                 </div>
             </div>
-            
-            <div class="post-body-wrapper">
-                
-                <div class="post-body" v-pre>
-                
-                    <h1 id="hello-world">Hello World</h1>
+        </div><a href="/gal/intro/" class="a-block">
+            <div class="post-item-wrapper">
+                <div class="post-item post-item-no-gaps">
+                    <div class="post-item-info-wrapper">
+                        <div class="post-item-title">
+                            Intro
+                        </div>
+                        <div class="post-item-meta">
+    2022-09-20
+    &emsp;
+    
+    
+    
+    &emsp;
+    
+</div>
 
-                    
-                    <HR width="100%" id="EOF">
-		    <p style="color:#777;">最后修改于 2022-09-20</p>
-                    
+                    </div>
                 </div>
             </div>
-            
-            
-            <nav class="post-pagination">
-
-                
-                <a class="newer-posts">
-			下回<br>已经到头啦。
-                </a>
-                
-                
-                
-                <a class="older-posts">
-			上回<br>这是最旧的文章了。
-                </a>
-                
-            </nav>
-            <div class="post-comment-wrapper">
-                
-
-
-<div id="gitalk-container"></div>
-
-
-
-
-
-
-
-
-
-            </div>
-        </div>
-    </div>
+        </a></div>
 
 
                     </div>
-            </div><div id="single-column-footer">
+            </div>
+
+
+<div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a
     href="https://risehere.net/">Rise</a>
 <br>
